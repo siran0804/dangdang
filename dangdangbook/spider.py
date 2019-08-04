@@ -1,13 +1,12 @@
 from requests import Session
-from doubanbook.config import *
-from doubanbook.db import RedisQueue
-from doubanbook.mysql import MySQL
-from doubanbook.request import DangdangRequest
+from dangdangbook.config import *
+from dangdangbook.redisqueue import RedisQueue
+from dangdangbook.request import DangdangRequest
 from urllib.parse import urlencode
 
 from requests import ReadTimeout, ConnectionError
 from bs4 import BeautifulSoup
-from doubanbook.savetoexcel import Saver
+from dangdangbook.savetoexcel import Saver
 
 
 class Spider(object):
