@@ -1,4 +1,13 @@
-from doubanbook.config import *
+# -*- coding: utf-8 -*-
+
+'''
+@Author : siran
+@time : 2019/8/3 23:30
+@File : request.py
+@Software : PyCharm
+'''
+
+from dangdangbook.config import *
 from requests import Request
 
 

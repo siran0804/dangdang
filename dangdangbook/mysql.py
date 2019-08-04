@@ -1,5 +1,15 @@
+# -*- coding: utf-8 -*-
+
+'''
+@Author : siran
+@time : 2019/8/3 23:30
+@File : mysql.py
+@Software : PyCharm
+'''
+
+
 import pymysql
-from doubanbook.config import *
+from dangdangbook.config import *
 
 
 class MySQL():

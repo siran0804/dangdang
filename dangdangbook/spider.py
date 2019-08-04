@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+
+'''
+@Author : siran
+@time : 2019/8/3 23:30
+@File : spider.py
+@Software : PyCharm
+'''
+
 from requests import Session
 from dangdangbook.config import *
 from dangdangbook.redisqueue import RedisQueue

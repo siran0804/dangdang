@@ -1,7 +1,16 @@
+# -*- coding: utf-8 -*-
+
+'''
+@Author : siran
+@time : 2019/8/3 23:30
+@File : redisqueue.py
+@Software : PyCharm
+'''
+
 from redis import StrictRedis
-from doubanbook.config import *
+from dangdangbook.config import *
 from pickle import dumps, loads
-from doubanbook.request import DangdangRequest
+from dangdangbook.request import DangdangRequest
 
 
 class RedisQueue():
